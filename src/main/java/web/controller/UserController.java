@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import web.model.User;
 import web.service.UserService;
 
+import java.util.List;
+
 
 @Controller
 public class UserController {
@@ -36,7 +38,7 @@ public class UserController {
 
     @GetMapping("/user-update/{id}")
     public String updateUserForm(@PathVariable("id") Long id, Model model) {
-        User user = userService.read(id);
+        List<User> user = userService.read(id);
         model.addAttribute("user", user);
         return "redirect:/user-update";
     }

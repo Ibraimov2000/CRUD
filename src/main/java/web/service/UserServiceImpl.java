@@ -2,13 +2,18 @@ package web.service;
 
 import org.springframework.stereotype.Service;
 import web.dao.UserDao;
-import web.dao.UserDaoHibernateImpl;
 import web.model.User;
+
+import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService{
 
-    UserDao userDao = new UserDaoHibernateImpl();
+    private UserDao userDao;
+
+    UserServiceImpl(UserDao userDao) {
+        this.userDao = userDao;
+    }
 
     @Override
     public User create(User user) {
@@ -16,7 +21,7 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public User read(long id) {
+    public List<User> read(long id) {
         return userDao.read(id);
     }
 

@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1038170e-3752-4368-b4c9-affc508dcd62" name="Changes" comment="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер.">
+    <list default="true" id="1038170e-3752-4368-b4c9-affc508dcd62" name="Changes" comment="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер..">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/DataBaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/DataBaseConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoHibernateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/pages/user-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/user-update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -103,7 +105,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="b2a62fae-6cf0-482b-971c-821a25323ffc" />
+        <option name="BASE_DIRECTORY_NAME" value="13d26afb-04bf-4994-ad88-2f27f1b8b933" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -111,7 +113,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51040" />
+        <option name="DEBUG_PORT" value="65264" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -192,7 +194,8 @@
       <workItem from="1632478839152" duration="8830000" />
       <workItem from="1632637270703" duration="17720000" />
       <workItem from="1632772508025" duration="554000" />
-      <workItem from="1632832964035" duration="10474000" />
+      <workItem from="1632832964035" duration="10736000" />
+      <workItem from="1632845702236" duration="2817000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1632771617267</created>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632843625275</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер..">
+      <created>1632845391634</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632845391634</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,9 +244,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="." />
     <MESSAGE value="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер" />
     <MESSAGE value="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер." />
-    <option name="LAST_COMMIT_MESSAGE" value="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер." />
+    <MESSAGE value="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер.." />
+    <option name="LAST_COMMIT_MESSAGE" value="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер.." />
   </component>
 </project>
