@@ -1,11 +1,11 @@
 package web.service;
 
+import org.springframework.stereotype.Service;
 import web.dao.UserDao;
 import web.dao.UserDaoHibernateImpl;
 import web.model.User;
 
-import java.util.List;
-
+@Service
 public class UserServiceImpl implements UserService{
 
     UserDao userDao = new UserDaoHibernateImpl();

@@ -7,8 +7,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 public class UserDaoHibernateImpl implements UserDao{
 
-    private EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("web");
-    private EntityManager entityManager;
+    private final EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("web");
+    private final EntityManager entityManager;
 
     public UserDaoHibernateImpl() {
         entityManager = entityManagerFactory.createEntityManager();

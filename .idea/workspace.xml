@@ -9,20 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1038170e-3752-4368-b4c9-affc508dcd62" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/web/config/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CRUD.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1038170e-3752-4368-b4c9-affc508dcd62" name="Changes" comment="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/DataBaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/DataBaseConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoHibernateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/web/config/resources/hibernate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/pages/user-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/user-list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +191,7 @@
       <workItem from="1632478839152" duration="8830000" />
       <workItem from="1632637270703" duration="17720000" />
       <workItem from="1632772508025" duration="554000" />
-      <workItem from="1632832964035" duration="4273000" />
+      <workItem from="1632832964035" duration="8738000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1632771617267</created>
@@ -208,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632771617267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер">
+      <created>1632838531500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632838531500</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +227,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер" />
+    <option name="LAST_COMMIT_MESSAGE" value="модель User исправил, в AppInit класс DataBaseConfig добавил, с проперти видимо вопрос решен, думаю осталось только контроллер" />
   </component>
 </project>
