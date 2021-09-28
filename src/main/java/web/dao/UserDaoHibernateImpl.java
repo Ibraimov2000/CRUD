@@ -1,16 +1,10 @@
 package web.dao;
 
-import org.hibernate.Session;
-import org.hibernate.Transaction;
 import web.model.User;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import javax.persistence.Query;
-import java.util.ArrayList;
-import java.util.List;
-
 public class UserDaoHibernateImpl implements UserDao{
 
     private EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("web");

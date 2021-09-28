@@ -1007,66 +1007,62 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="294" parent="287" name="name">
+    <column id="294" parent="287" name="first_name">
       <Position>2</Position>
       <DataType>varchar(30)|0s</DataType>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="295" parent="287" name="lastName">
+    <column id="295" parent="287" name="last_name">
       <Position>3</Position>
       <DataType>varchar(30)|0s</DataType>
       <Collation>utf8_general_ci</Collation>
     </column>
-    <column id="296" parent="287" name="age">
-      <Position>4</Position>
-      <DataType>int|0s</DataType>
-    </column>
-    <index id="297" parent="287" name="user_id_uindex">
+    <index id="296" parent="287" name="user_id_uindex">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="298" parent="287" name="PRIMARY">
+    <key id="297" parent="287" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="299" parent="287" name="user_id_uindex">
+    <key id="298" parent="287" name="user_id_uindex">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>user_id_uindex</UnderlyingIndexName>
     </key>
-    <column id="300" parent="288" name="id">
+    <column id="299" parent="288" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="301" parent="288" name="email">
+    <column id="300" parent="288" name="email">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="302" parent="288" name="name">
+    <column id="301" parent="288" name="name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="303" parent="288" name="last_name">
+    <column id="302" parent="288" name="last_name">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="304" parent="288" name="car">
+    <column id="303" parent="288" name="car">
       <Position>5</Position>
       <DataType>bigint|0s</DataType>
     </column>
-    <index id="305" parent="288" name="FK6d1s30ia7n6ageg33s0xvu0vd">
+    <index id="304" parent="288" name="FK6d1s30ia7n6ageg33s0xvu0vd">
       <ColNames>car</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="306" parent="288" name="PRIMARY">
+    <key id="305" parent="288" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="307" parent="288" name="FK6d1s30ia7n6ageg33s0xvu0vd">
+    <foreign-key id="306" parent="288" name="FK6d1s30ia7n6ageg33s0xvu0vd">
       <ColNames>car</ColNames>
       <RefTableName>cars</RefTableName>
       <RefColNames>id</RefColNames>

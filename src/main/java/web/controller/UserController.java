@@ -29,7 +29,7 @@ public class UserController {
 
     @GetMapping("/user-create")
     public String createUserForm(User user){
-        return "user-create";
+        return "redirect:/user-create";
     }
 
     @PostMapping("/user-create")
@@ -48,7 +48,7 @@ public class UserController {
     public String updateUserForm(@PathVariable("id") Long id, Model model){
         User user = userService.read(id);
         model.addAttribute("user", user);
-        return "user-update";
+        return "redirect:/user-update";
     }
 
     @PostMapping("/user-update")
