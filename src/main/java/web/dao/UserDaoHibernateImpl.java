@@ -1,17 +1,20 @@
 package web.dao;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import web.model.User;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import javax.persistence.PersistenceContext;
+
+@Repository
 public class UserDaoHibernateImpl implements UserDao{
 
-    private final EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("web");
-    private final EntityManager entityManager;
+    @PersistenceContext
+    private EntityManager entityManager;
 
     public UserDaoHibernateImpl() {
-        entityManager = entityManagerFactory.createEntityManager();
+
     }
 
 
@@ -48,6 +51,7 @@ public class UserDaoHibernateImpl implements UserDao{
 
     @Override
     public void close() {
-        entityManagerFactory.close();
+
     }
+
 }

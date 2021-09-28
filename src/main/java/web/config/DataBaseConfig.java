@@ -21,7 +21,6 @@ import java.util.Properties;
 @EnableJpaRepositories("web")
 @ComponentScan("web")
 @PropertySource("/web/config/resources/db.properties")
-@PropertySource("/web/config/resources/hibernate.properties")
 public class DataBaseConfig {
 
     @Resource
